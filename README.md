@@ -1,4 +1,3 @@
-```md
 ## Getting Started
 
 ### Install Dependencies
