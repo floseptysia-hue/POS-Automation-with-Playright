@@ -1,0 +1,13 @@
+{
+  "companyName": "GDC Merchant",
+  "baseUrl": "https://dev-portal-gdc-merchant.payaja.id",
+  "features": {
+    "login": false,
+    "register": false,
+    "verification": true
+  },
+  "credentials": {
+    "username": "admin@getqris.id",
+    "password": "sayamakannasi"
+  }
+}
