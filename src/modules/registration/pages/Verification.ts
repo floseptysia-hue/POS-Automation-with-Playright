@@ -53,7 +53,7 @@ export class VerificationPage {
 
     await this.page
       .getByPlaceholder(
-        "Tulis alasan penolakan di sini"
+        "Alasan"
       )
       .fill(reason);
 
