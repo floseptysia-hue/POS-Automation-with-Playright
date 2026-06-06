@@ -1,11 +1,16 @@
 {
   "companyName": "GDC Merchant",
   "baseUrl": "https://dev-portal-gdc-merchant.payaja.id",
+  "fees": {
+    "networkFeePercent": 0.7,
+    "paymentFeePercent": 1,
+    "serviceFee": 1000
+  },
   "features": {
-    "login": true,
-    "register": true,
-    "verification": true,
-    "transaction": true,
+    "login": false,
+    "register": false,
+    "verification": false,
+    "transaction": true
   },
   "credentials": {
     "username": "admin@getqris.id",

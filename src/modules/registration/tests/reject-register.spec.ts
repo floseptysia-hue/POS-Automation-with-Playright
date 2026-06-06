@@ -1,8 +1,8 @@
 import { test } from "@playwright/test";
-import { LoginPage } from "./src/modules/auth/pages/LoginPage";
-import { VerificationPage } from "./src/modules/registration/pages/Verification";
-import { company } from "./src/core/company";
-import { authData } from "./src/modules/auth/test-data/auth.data";
+import { LoginPage } from "../../auth/pages/LoginPage";
+import { VerificationPage } from "../pages/Verification";
+import { company } from "../../../core/company";
+import { authData } from "../../auth/test-data/auth.data";
 
 test(
   "Reject Verification Register",
